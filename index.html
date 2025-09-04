@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="" />
+  <meta name="keywords" content="" />
+  <meta name="author" content="Nandhitha G P" />
+
+  <!-- Open Graph Meta Tags for social sharing -->
+  <meta property="og:title" content="Nandhitha G P" />
+  <meta property="og:description" content="" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="" />
+
+  <!-- Twitter Card Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Nandhitha G P" />
+  <meta name="twitter:description" content="" />
+
+  <title>Nandhitha G P</title>
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" type="image/x-icon" href="public/images/favicon.ico" />
+  <!-- Styling -->
+  <link rel="stylesheet" href="public/CSS/styles.css" />
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Script -->
+  <script type="importmap">
+      {
+        "imports": {
+          "three": "https://cdn.jsdelivr.net/npm/three@0.161/build/three.module.js",
+          "jsm/": "https://cdn.jsdelivr.net/npm/three@0.161/examples/jsm/"
+        }
+      }
+    </script>
+  <script type="module" src="public/JS/main.js"></script>
+</head>
+
+<body>
+  <!--Cursor-->
+  <div id="custom-cursor" class="normal"></div>
+
+  <!-- Body -->
+  <div class="base">
+    <div class="moon-area">
+      <figure class="circle"></figure>
+    </div>
+    <div class="container">
+      <nav id="navbar" class="glass">
+        <a href="#about" class="nav-link">About Me</a>
+        <a href="#projects" class="nav-link">My Projects</a>
+        <a href="#contacts" class="nav-link">Contact Me</a>
+      </nav>
+
+      <!-- About Section -->
+      <section id="about" class="section">
+        <div class="about">
+          <div class="introduction">
+            <h1 class="text-container">
+              Greetings! I am
+              <div class="name-container">
+                <span class="name">Nandhitha G P</span><span class="period">.</span>
+              </div>
+            </h1>
+          </div>
+          <div class="about-information">
+            <p>
+              I am a Computer Science and Design student who enjoys solving practical problems. I like working on
+              projects that combine creativity and technology.
+            </p>
+            <p>
+              I love singing and often see it as a way to express emotions differently. Reading novels, short stories,
+              and poetry is something I enjoy, as it opens up new perspectives. I also like doing art and craft, and at
+              times I write poems to put my thoughts into words.
+            </p>
+          </div>
+          <div class="skills">
+            <h2>Skills:</h2>
+            <div class="skills-badges">
+              <span class="badge glass">HTML</span>
+              <span class="badge glass">CSS</span>
+              <span class="badge glass">JavaScript</span>
+              <span class="badge glass">MySQL</span>
+              <span class="badge glass">Python</span>
+              <span class="badge glass">Java</span>
+              <span class="badge glass">C</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="break"></div>
+
+      <!-- Projects Section -->
+      <section id="projects" class="section">
+        <h1>My Projects</h1>
+        <div class="project-row">
+          <div class="project-image">
+            <img src="./public/images/projects/one.png" alt="" />
+          </div>
+          <div class="project-text">
+            <h2 class="card-title">AirClick Virtual Mouse</h2>
+            <p class="card-text">
+              A virtual mouse application that lets users control the cursor
+              with hand gestures using a webcam. It supports moving the
+              pointer, left and right clicks, and scrolling, all without
+              touching the mouse.
+            </p>
+            <div class="skills-badges">
+              <span class="badge glass">Python</span>
+              <span class="badge glass">Flask</span>
+              <span class="badge glass">OpenCV</span>
+              <span class="badge glass">Mediapipe</span>
+              <span class="badge glass">JavaScript</span>
+              <span class="badge glass">HTML</span>
+              <span class="badge glass">CSS</span>
+            </div>
+            <div class="project-button">
+              <a href="http://" class="project-btn" target="_blank" rel="noopener noreferrer">Learn More</a>
+            </div>
+          </div>
+        </div>
+        <div class="project-row">
+          <div class="project-image">
+            <img src="./public/images/projects/two.jpg" alt="" />
+          </div>
+          <div class="project-text">
+            <h2 class="card-title">MeloDrama – Music Search Engine</h2>
+            <p class="card-text">
+              A music search tool where users can look up songs by title,
+              artist, album, or lyrics. Features include autocomplete and
+              recommendations. The frontend is built with HTML, CSS and
+              JavaScript, the backend uses Flask, and the database is
+              PostgreSQL. The app connects to the Spotify API to fetch song
+              details.
+            </p>
+            <div class="skills-badges">
+              <span class="badge glass">Flask</span>
+              <span class="badge glass">MySQL</span>
+              <span class="badge glass">Spotify API</span>
+              <span class="badge glass">JavaScript</span>
+              <span class="badge glass">HTML</span>
+              <span class="badge glass">CSS</span>
+            </div>
+            <div class="project-button">
+              <a href="http://" class="project-btn" target="_blank" rel="noopener noreferrer">Learn More</a>
+            </div>
+          </div>
+        </div>
+        <div class="project-row">
+          <div class="project-image">
+            <img src="./public/images/projects/three.png" alt="" />
+          </div>
+          <div class="project-text">
+            <h2 class="card-title">College Bus Management System</h2>
+            <p class="card-text">
+              A web application for managing college bus transportation. The
+              system allows admins to update schedules and records, drivers to
+              view their assigned routes, and students to check their bus
+              details. It helps organize and track transportation information
+              for all users.
+            </p>
+            <div class="skills-badges">
+              <span class="badge glass">HTML</span>
+              <span class="badge glass">CSS</span>
+              <span class="badge glass">JavaScript</span>
+              <span class="badge glass">PHP</span>
+              <span class="badge glass">SQLite</span>
+              <span class="badge glass">XAMPP</span>
+            </div>
+            <div class="project-button">
+              <a href="https://github.com/Nanditha07Shaiva/college-bus-management-.git" class="project-btn"
+                target="_blank" rel="noopener noreferrer">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="break"></div>
+
+      <!-- Contact Section -->
+      <section id="contacts" class="section">
+        <div class="contacts">
+          <p>If you wish to contact me,</p>
+          <div class="contact-buttons">
+            <a href="https://www.linkedin.com/in/nandhitha-gp/" target="_blank" rel="noopener noreferrer" id="linkedin"
+              class="contact-btn glass">
+              LinkedIn
+              <span class="icon">
+                <i class="fa-brands fa-linkedin-in"></i></span>
+            </a>
+            <a href="https://github.com/Nanditha07Shaiva" target="_blank" rel="noopener noreferrer" id="github"
+              class="contact-btn glass">
+              GitHub
+              <span class="icon">
+                <i class="fa-brands fa-github"></i>
+              </span>
+            </a>
+            <a href="https://www.instagram.com/nanditha_shaivaa/" target="_blank" rel="noopener noreferrer"
+              id="instagram" class="contact-btn glass">
+              Instagram
+              <span class="icon">
+                <i class="fa-brands fa-instagram"></i>
+              </span>
+            </a>
+            <a href="mailto:nandhitha07shaivaa@gmail.com" id="email-contact" class="contact-btn glass">
+              Email
+              <span class="icon">
+                <i class="fa-solid fa-envelope"></i>
+              </span>
+            </a>
+          </div>
+        </div>
+      </section>
+      <div class="footer-moon"></div>
+    </div>
+  </div>
+
+  <!-- Credits:
+    Loading Background (Not used anymore): starry night sky a outer space transparent background with a star field texture overlay PNG Designed By tree from PngTree(https://pngtree.com/freepng/starry-night-sky-a-outer-space-transparent-background-with-a-star-field-texture-overlay_15229671.html?sol=downref&id=bef)
+    Contact Section: Background Photo by Nicolas Thomas (https://unsplash.com/@nicolasthomas?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on Unsplash (https://unsplash.com/photos/moon-wKlqqfNTLsI?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
+    Moon Texture and Stars Background: Based on CoryG89's MoonDemo (https://github.com/CoryG89/MoonDemo/tree/master)
+    -->
+</body>
+
+</html>
